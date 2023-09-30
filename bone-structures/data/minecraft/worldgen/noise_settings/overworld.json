@@ -1728,6 +1728,24 @@
                                                     }
                                                 },
                                                 {
+                                                    "type": "minecraft:condition",
+                                                    "if_true": {
+                                                        "type": "minecraft:biome",
+                                                        "biome_is": [
+                                                            "bone:snowy_forest"
+                                                        ]
+                                                    },
+                                                    "then_run": {
+                                                        "type": "minecraft:block",
+                                                        "result_state": {
+                                                            "Name": "minecraft:snow_block",
+                                                            "Properties": {
+                                                                "snowy": "false"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                {
                                                     "type": "minecraft:sequence",
                                                     "sequence": [
                                                         {
